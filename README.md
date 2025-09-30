@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ben Haggard - Personal Website
+
+A modern, responsive personal website built with Next.js, TypeScript, and Tailwind CSS. Features a comprehensive resume, skills showcase, and professional portfolio.
+
+## Features
+
+- 🚀 Built with Next.js 15 and TypeScript
+- 🎨 Styled with Tailwind CSS
+- 📱 Fully responsive design
+- 🔗 LinkedIn and GitHub integration
+- 📧 Contact information prominently displayed
+- 💼 Comprehensive work experience and education sections
+- 🛠️ Skills categorized by technology type
 
 ## Getting Started
 
@@ -16,7 +28,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
