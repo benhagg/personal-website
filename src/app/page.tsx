@@ -118,6 +118,52 @@ export default function Home() {
                 ))}
               </div>
             </div>
+            {/* React Timer Game */}
+            <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+              <div className="flex items-start justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-blue-100 rounded-lg">
+                    <Timer size={24} className="text-blue-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold text-gray-900">
+                      React Timer Game
+                    </h4>
+                    <p className="text-blue-600 font-medium">
+                      Interactive Web Game
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://benhagg.github.io/React-timer-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <ExternalLink size={16} />
+                  <span>Play Game</span>
+                </a>
+              </div>
+              <p className="text-gray-700 mb-4">
+                A precision-based timer game built with React where players
+                challenge themselves to start and stop a timer at exact
+                intervals (e.g., 5 seconds). Test your timing skills and see how
+                close you can get to the target time! Features real-time
+                feedback and score tracking.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {["React", "JavaScript", "CSS", "HTML", "GitHub Pages"].map(
+                  (tech) => (
+                    <span
+                      key={tech}
+                      className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
+              </div>
+            </div>
 
             {/* Portfolio Optimization Tool */}
             <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
@@ -164,53 +210,6 @@ export default function Home() {
                     {tech}
                   </span>
                 ))}
-              </div>
-            </div>
-
-            {/* React Timer Game */}
-            <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-blue-100 rounded-lg">
-                    <Timer size={24} className="text-blue-600" />
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-semibold text-gray-900">
-                      React Timer Game
-                    </h4>
-                    <p className="text-blue-600 font-medium">
-                      Interactive Web Game
-                    </p>
-                  </div>
-                </div>
-                <a
-                  href="https://benhagg.github.io/React-timer-game/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  <ExternalLink size={16} />
-                  <span>Play Game</span>
-                </a>
-              </div>
-              <p className="text-gray-700 mb-4">
-                A precision-based timer game built with React where players
-                challenge themselves to start and stop a timer at exact
-                intervals (e.g., 5 seconds). Test your timing skills and see how
-                close you can get to the target time! Features real-time
-                feedback and score tracking.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {["React", "JavaScript", "CSS", "HTML", "GitHub Pages"].map(
-                  (tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
-                    >
-                      {tech}
-                    </span>
-                  )
-                )}
               </div>
             </div>
           </div>
