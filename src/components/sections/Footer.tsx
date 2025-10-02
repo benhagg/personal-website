@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="text-center py-8 border-t border-gray-200">
+    <footer className="text-center py-8 border-t border-gray-500">
       <p className="text-gray-600 mb-4">
         Let&apos;s connect and build something amazing together!
       </p>
