@@ -1,5 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Navigation() {
   return (
@@ -7,13 +7,13 @@ export default function Navigation() {
       <div className="max-w-4xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <Image
+            {/* <Image
               src="/myPhoto.jpg"
               alt="Ben Haggard Photo"
               className="h-10 w-10 rounded-full"
               width={40}
               height={40}
-            />
+            /> */}
             <h1 className="text-2xl font-bold text-gray-900">Ben Haggard</h1>
           </div>
           <div className="flex space-x-4">
