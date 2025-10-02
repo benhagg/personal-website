@@ -29,7 +29,15 @@ export default function SkillsSection() {
         <div className="grid md:grid-cols-2 gap-6">
           <SkillCategory
             title="Languages"
-            skills={["Python", "TypeScript", "JavaScript", "C++", "C#", "SQL"]}
+            skills={[
+              "Python",
+              "TypeScript",
+              "JavaScript",
+              "C++",
+              "C#",
+              "SQL",
+              "Bash",
+            ]}
             variant="blue"
           />
           <SkillCategory
@@ -48,11 +56,11 @@ export default function SkillsSection() {
             title="Cloud & DevOps"
             skills={[
               "AWS",
-              "Azure ML",
-              "GitHub Actions",
-              "CI/CD",
               "Docker",
               "Terraform",
+              "Linux",
+              "GitHub Actions",
+              "CI/CD",
             ]}
             variant="purple"
           />

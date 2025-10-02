@@ -8,7 +8,7 @@ export default function HeroSection() {
       </h2>
       <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
         I love building software.
-        <br /> Cloud | Development | DevOps
+        <br /> Engineering | Cloud | DevOps
       </p>
 
       {/* Contact Info */}
