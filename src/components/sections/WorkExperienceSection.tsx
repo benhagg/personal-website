@@ -20,7 +20,7 @@ const workExperiences = [
     duration: "Apr 2025 – Aug 2025",
     responsibilities: [
       "Developed a unified React/TypeScript UI integrating internal npm packages, a browser extension, and multiple apps, simplifying cryptographic workflows, and improving secure content verification for users.",
-      "Collaborated with developers to deliver deadline-driven feature releases, emphasizing frontend functionality and end-to-end testing",
+      "Developed comprehensive unit tests for frontend React components using Vitest and Jest. Starting with the most business critical components, I increased test coverage from 5% to 60%",
       "Implemented some full-stack features including expanding support of signing and verifying web-based content by 200%",
     ],
   },

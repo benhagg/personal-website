@@ -11,7 +11,7 @@ export default function ProjectsSection() {
         <ProjectCard
           title="AI Note Taker"
           subtitle="Local AI-Powered Transcription & Summarization"
-          description="A very useful project I use every day to supplement my note-taking in class and ensure I don't miss anything the teacher says. Uses locally hosted models to transcribe and summarize audio recordings, keeping all data private. Planning to implement more agentic features in the future, including a to-do list with due dates and RAG integration with a vectorized database of my textbooks."
+          description="I use this project every day to supplement my note-taking in class and ensure I don't miss anything. This project has been super valuable to me. Uses locally hosted models to transcribe and summarize audio recordings, keeping all data private. Planning to implement more agentic features in the future, including a to-do list with due dates and RAG integration with a vectorized database of my textbooks."
           icon={<Mic size={24} className="text-green-600" />}
           iconBgColor="bg-green-100"
           technologies={[

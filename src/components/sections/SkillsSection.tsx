@@ -57,13 +57,13 @@ export default function SkillsSection() {
             variant="purple"
           />
           <SkillCategory
-            title="Data & Analytics"
+            title="Data, ML, & AI"
             skills={[
               "Azure Machine Learning",
               "Data Pipelines",
               "Pandas",
-              "NumPy",
-              "scikit-learn",
+              "LangChain",
+              "RAG",
             ]}
             variant="orange"
           />
