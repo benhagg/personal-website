@@ -50,7 +50,7 @@ export default function SkillsSection() {
               "Node.js",
               "ASP.NET",
             ]}
-            variant="green"
+            variant="orange"
           />
           <SkillCategory
             title="Cloud & DevOps"
@@ -73,7 +73,7 @@ export default function SkillsSection() {
               "LangChain",
               "RAG",
             ]}
-            variant="orange"
+            variant="green"
           />
         </div>
 
@@ -82,9 +82,9 @@ export default function SkillsSection() {
             Professional Development
           </h4>
           <p className="text-gray-700">
-            Spent 300+ hours in online courses in web & mobile development
-            (React, React Native, Django, Flask), cloud computing (AWS, Google
-            Cloud), and cybersecurity (Hack The Box, Try Hack Me).
+            Spent 300+ hours in online courses in web & mobile development,
+            cloud computing (AWS, Google Cloud), and cybersecurity (Hack The
+            Box, Try Hack Me).
           </p>
         </div>
       </Card>

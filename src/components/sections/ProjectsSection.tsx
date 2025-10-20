@@ -1,4 +1,11 @@
-import { Github, Timer, Mic, TrendingUp, ExternalLink } from "lucide-react";
+import {
+  Github,
+  Timer,
+  Mic,
+  TrendingUp,
+  ExternalLink,
+  Search,
+} from "lucide-react";
 import SectionHeader from "../ui/SectionHeader";
 import ProjectCard from "../ui/ProjectCard";
 
@@ -7,11 +14,39 @@ export default function ProjectsSection() {
     <section className="mb-12">
       <SectionHeader title="Featured Projects" />
       <div className="grid gap-6">
+        {/* RAG based Job Search */}
+        <ProjectCard
+          title="RAG based Job Search"
+          subtitle="AI-Powered Job Search Tool"
+          description="My school provides us with a spreadsheet of ~1500 job and internship listings. I use this tool to vectorize and efficiently search the listings. Uses a containerized architecture."
+          icon={<Search size={24} className="text-green-600" />}
+          iconBgColor="bg-green-100"
+          technologies={[
+            "Python",
+            "AI/ML",
+            "Docker",
+            "RAG",
+            "Vector DB",
+            "Hugging Face",
+          ]}
+          techVariant="green"
+          actionButton={
+            <a
+              href="https://github.com/benhagg/job-search"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            >
+              <Github size={16} />
+              <span>View Code</span>
+            </a>
+          }
+        />
         {/* AI Note Taker */}
         <ProjectCard
           title="AI Note Taker"
           subtitle="Local AI-Powered Transcription & Summarization"
-          description="I use this project every day to supplement my note-taking in class and ensure I don't miss anything. This project has been super valuable to me. Uses locally hosted models to transcribe and summarize audio recordings, keeping all data private. Planning to implement more agentic features in the future, including a to-do list with due dates and RAG integration with a vectorized database of my textbooks."
+          description="I use this project every day to supplement my note-taking in class and ensure I don't miss anything. This project has been super valuable to me. Uses locally hosted models to transcribe and summarize audio recordings."
           icon={<Mic size={24} className="text-green-600" />}
           iconBgColor="bg-green-100"
           technologies={[
@@ -61,7 +96,7 @@ export default function ProjectsSection() {
         <ProjectCard
           title="Portfolio Optimization Tool"
           subtitle="Financial Analysis & Risk Management"
-          description="A sophisticated financial analysis tool that uses the yfinance API to pull historical data on stocks in my portfolio. Employs Python and pandas to create covariance matrices based on predicted returns and optimizes the Sharpe ratio for selected stock groups. This tool has been instrumental in helping me diversify my portfolio and make data-driven investment decisions."
+          description="A financial analysis tool that uses the yfinance API to pull historical data on stocks in my portfolio. Creates covariance matrices based on predicted returns and optimizes the Sharpe ratio for selected stock groups. I have used this tool to diversify my portfolio and make data-driven investment decisions."
           icon={<TrendingUp size={24} className="text-purple-600" />}
           iconBgColor="bg-purple-100"
           technologies={[
