@@ -18,7 +18,7 @@ export default function ProjectsSection() {
         <ProjectCard
           title="RAG based Job Search"
           subtitle="AI-Powered Job Search Tool"
-          description="My school provides us with a spreadsheet of ~1500 job and internship listings. I use this tool to vectorize and efficiently search the listings. Uses a containerized architecture."
+          description="I use this tool to vectorize and efficiently search over 3500 job listings from various sources. Uses a containerized architecture."
           icon={<Search size={24} className="text-green-600" />}
           iconBgColor="bg-green-100"
           technologies={[
