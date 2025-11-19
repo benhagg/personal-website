@@ -42,6 +42,31 @@ export default function ProjectsSection() {
             </a>
           }
         />
+        <ProjectCard
+          title="LLM based Economy Simulation"
+          subtitle="loosely modeled after Catan"
+          description="A group of LLM agents simulate an economy by trading resources to achieve their individual goals."
+          icon={<Mic size={24} className="text-green-600" />}
+          iconBgColor="bg-green-100"
+          technologies={[
+            "Python",
+            "AI/ML",
+            "LangChain",
+            "Multi Agent Systems",
+          ]}
+          techVariant="green"
+          actionButton={
+            <a
+              href="https://github.com/benhagg/ai-economy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+            >
+              <Github size={16} />
+              <span>View Code</span>
+            </a>
+          }
+        />
         {/* AI Note Taker */}
         <ProjectCard
           title="AI Note Taker"

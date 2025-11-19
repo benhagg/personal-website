@@ -57,6 +57,7 @@ export default function SkillsSection() {
             skills={[
               "AWS",
               "Docker",
+              "Kubernetes",
               "Terraform",
               "Linux",
               "GitHub Actions",
