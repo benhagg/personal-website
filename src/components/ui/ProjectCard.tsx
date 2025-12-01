@@ -36,6 +36,8 @@ export default function ProjectCard({
                   ? "text-green-600"
                   : techVariant === "purple"
                   ? "text-purple-600"
+                  : techVariant === "orange"
+                  ? "text-orange-600"
                   : "text-blue-600"
               }`}
             >
