@@ -17,11 +17,11 @@ export default function WorkExperienceCard({
 }: WorkExperienceCardProps) {
   return (
     <Card>
-      <div className="flex justify-between items-start mb-2">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
         <h4 className="text-xl font-semibold text-gray-900">{company}</h4>
         <span className="text-gray-600">{location}</span>
       </div>
-      <div className="flex justify-between items-center mb-3">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3">
         <p className="text-blue-600 font-medium">{position}</p>
         <span className="text-gray-600">{duration}</span>
       </div>

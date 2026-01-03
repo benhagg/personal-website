@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     "Full Stack Developer",
   ],
   authors: [{ name: "Ben Haggard" }],
+  viewport: 'width=device-width, initial-scale=1',
   openGraph: {
     title: "Ben Haggard - Software Engineer",
     description: "Personal website of Ben Haggard, Software Engineer",

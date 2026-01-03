@@ -25,8 +25,8 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <Card>
-      <div className="flex items-start justify-between mb-4">
-        <div className="flex items-center space-x-3">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4">
+        <div className="flex items-center space-x-3 mb-2 sm:mb-0">
           <div className={`p-2 ${iconBgColor} rounded-lg`}>{icon}</div>
           <div>
             <h4 className="text-xl font-semibold text-gray-900">{title}</h4>
@@ -45,7 +45,9 @@ export default function ProjectCard({
             </p>
           </div>
         </div>
-        {actionButton}
+        <div className="flex justify-start sm:justify-end">
+          {actionButton}
+        </div>
       </div>
       <p className="text-gray-700 mb-4">{description}</p>
       <div className="flex flex-wrap gap-2">

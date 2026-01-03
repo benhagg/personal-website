@@ -6,8 +6,7 @@ import {
   ExternalLink,
   Search,
   Coins,
-  UserPen,
-  UserRoundPen
+  UserPen
 } from "lucide-react";
 import SectionHeader from "../ui/SectionHeader";
 import ProjectCard from "../ui/ProjectCard";
@@ -38,7 +37,7 @@ export default function ProjectsSection() {
               href="https://github.com/benhagg/job-search"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              className="flex items-center justify-center space-x-2 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
               <Github size={16} />
               <span>View Code</span>
@@ -63,7 +62,7 @@ export default function ProjectsSection() {
               href="https://github.com/benhagg/job-app-autofiller"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+              className="flex items-center justify-center space-x-2 px-3 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
             >
               <Github size={16} />
               <span>View Code</span>
@@ -88,7 +87,7 @@ export default function ProjectsSection() {
               href="https://github.com/benhagg/ai-economy"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              className="flex items-center justify-center space-x-2 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
               <Github size={16} />
               <span>View Code</span>
@@ -115,7 +114,7 @@ export default function ProjectsSection() {
               href="https://github.com/benhagg/note-taker"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              className="flex items-center justify-center space-x-2 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
             >
               <Github size={16} />
               <span>View Code</span>
@@ -137,7 +136,7 @@ export default function ProjectsSection() {
               href="https://benhagg.github.io/React-timer-game/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              className="flex items-center justify-center space-x-2 px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               <ExternalLink size={16} />
               <span>Play Game</span>
