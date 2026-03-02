@@ -44,6 +44,33 @@ export default function ProjectsSection() {
             </a>
           }
         />
+                  {/* Sandbox Hackathon - Real Estate Document Management */}
+          <ProjectCard
+            title="Sandbox Hackathon"
+            subtitle="Real estate document management software"
+            description="Built a real estate document management software for a hackathon to streamline the process of real estate transactions. Simplified negotiation between buyer and seller agents and automated filling, sending, receiving, and managing paperwork."
+            icon={<ExternalLink size={24} className="text-blue-600" />}
+            iconBgColor="bg-blue-100"
+            technologies={[
+              "MongoDB",
+              "Docker",
+              "React",
+              "Node.js",
+              "JavaScript",
+            ]}
+            techVariant="blue"
+            actionButton={
+              <a
+                href="https://github.com/tracewilson3/closing-time"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center space-x-2 px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <Github size={16} />
+                <span>View Code</span>
+              </a>
+            }
+          />
         {/* Job application browser extension autofill */}
         <ProjectCard
           title="Job application autofiller"
