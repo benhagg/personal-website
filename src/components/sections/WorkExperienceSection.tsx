@@ -26,6 +26,15 @@ const workExperiences = [
     ],
   },
   {
+    company: "Komodo Systems",
+    location: "Provo, UT",
+    position: "Software Engineer Intern",
+    duration: "Jan 2026 - May 2026",
+    responsibilities: [
+      "Built a RAG application for isolated networks using OpenSearch hybrid search and a local LLM, deployed with Docker for secure, offline document retrieval",
+    ],
+  },
+  {
     company: "Spot Parking",
     location: "Provo, UT",
     position: "Cloud Engineer Intern",
