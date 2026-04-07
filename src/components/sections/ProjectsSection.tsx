@@ -44,7 +44,7 @@ export default function ProjectsSection() {
             </a>
           }
         />
-                  {/* Sandbox Hackathon - Real Estate Document Management */}
+          {/* Sandbox Hackathon - Real Estate Document Management */}
           <ProjectCard
             title="Sandbox Hackathon"
             subtitle="Real estate document management software"

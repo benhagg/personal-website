@@ -1,6 +1,7 @@
 import SectionHeader from "../ui/SectionHeader";
 import Card from "../ui/Card";
 import SkillTag from "../ui/SkillTag";
+import Script from "next/script";
 
 interface SkillCategoryProps {
   title: string;
@@ -88,7 +89,23 @@ export default function SkillsSection() {
             Box, Try Hack Me).
           </p>
         </div>
+
+        <div className="mt-6 pt-6 border-t border-gray-200">
+          <h4 className="font-semibold text-gray-900 mb-3">Certifications</h4>
+          <div className="flex justify-center sm:justify-start">
+            <div
+              data-iframe-width="150"
+              data-iframe-height="270"
+              data-share-badge-id="62e8b70b-d914-4fea-8ad6-75e510be7cda"
+              data-share-badge-host="https://www.credly.com"
+            />
+          </div>
+        </div>
       </Card>
+      <Script
+        src="https://cdn.credly.com/assets/utilities/embed.js"
+        strategy="afterInteractive"
+      />
     </section>
   );
 }
